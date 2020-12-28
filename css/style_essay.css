@@ -1,4 +1,5 @@
 
+
 @import url(href="https://fonts.googleapis.com/css2?family=Spartan&display=swap");
 
 
@@ -8,10 +9,11 @@ body {
     line-height: 1.5;
     color:black;
     padding: 0.4em;
-    width: 80%;
+    width: 90%;
     max-width: 1000px;
     margin: auto;
-    text-align: left;
+    text-align: center;
+    
 }
 
 a{color: black; text-decoration: none;}
@@ -36,7 +38,7 @@ img {width:100%;
     top:-100px;
 }
 
-.greiman {border-radius: 50%;
+.greiman {
     display: block;
     height:300px;
     width:350px;
@@ -48,9 +50,9 @@ img {width:100%;
 }
 
  
-.scher {border-radius: 50%;
+.scher {
      display: block;
-    height:300px;
+    height:350px;
     width:350px;
      top:-0.1px;
     object-position: center; 
@@ -68,8 +70,8 @@ img {width:100%;
 }
 
 .icons {position: relative;
-    height:400px;
-    width:300px;
+    height:300px;
+    width:250px;
     top:-5px;
     margin-left: auto;
   margin-right: auto;
@@ -83,6 +85,8 @@ img {width:100%;
     display: block;
     position: relative;
     top: auto;
+    height: 300px;
+    width: 600px;
     
     
     
@@ -104,8 +108,8 @@ img {width:100%;
     
 }
 .three {position: relative;
-    height:400px;
-    width:300px;
+    height:300px;
+    width:200px;
     top:-5px;
      margin-left: auto;
   margin-right: auto;
@@ -127,7 +131,7 @@ img {width:100%;
 
 .kare {position: relative;
     height:450px;
-    width:350px;
+    width: 350px;
     top:-5px;
     margin-left: auto;
   margin-right: auto;
@@ -135,10 +139,10 @@ img {width:100%;
     
 }
 
-.portrait {border-radius: 50%;
+.portrait {
     display: block;
     height:300px;
-    width:350px;
+    width:400px;
     top:-0.1px;
     object-position: center;
   margin-left: auto;
@@ -153,21 +157,22 @@ h1,h2,h3 {
     margin:2.75rem 0 1rem;
     font-family:'Spartan', sans-serif;
     line-height: 1.15;
-    text-align: left;
+    text-align: center;
     }
 
 h2 {font-size: 2.441em; border-bottom: 1px solid #FFA429; display: inline;
-text-align: left;}
+text-align: center;}
 
 h3 {font-size: 1.953em;
-    text-align: left;;
+    text-align: center;
 }
 
 h4 {font-size: 1.563em;
     text-align:center;}
 
-h5 {font-size: 1.25em;
-text-align: left;;}
+h5 {font-size: 0.5em;
+text-align: center;
+color: darkgray;}
 
 
 
@@ -178,8 +183,15 @@ p {
     margin-bottom: 1.25em;
     width: 5em;
     text-align:left;
+    margin: auto;
     
 
+}
+
+.bibliographyheader {text-align: center;}
+.bibliography {
+    text-align: left;
+    
 }
 
 .larger {font-size: 60px; color:#C5E9E9;
@@ -230,7 +242,6 @@ nav a:visted {
 main {
     padding: 1.2em;
     top: -190px;
-    text-align:left;
     margin: auto;
     
     
@@ -247,10 +258,11 @@ blockquote {font-size: 1.4em;
   font-family:'Spartan', sans-serif;;
   font-style:italic;
   color:#FFA429 ;
-padding:1em 30px 1em 50px;
+padding:3em 80px 3em 50px;
   border-left:8px solid #FFA429 ;
   line-height:1.6;
   background: white;
+text-align:left;
     
 }
     
